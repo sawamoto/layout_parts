@@ -1,5 +1,101 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q5__horizontal {
+	width: 640px;
+	margin: 0 auto;
+	padding: 20px 10px;
+	font-size: 0;
+	text-align: center;
+	background-color: #ECF1F2; 
+}
+.q5__horizontal__box {
+	display: inline-block;
+	width: 300px;
+	margin: 0 10px;
+	padding: 10px 0;
+	background-color: #fff;
+	font-size: 16px;
+	text-align: left; 
+}
+.q5__horizontal__box__txt {
+	width: 90px;
+	padding: 10px 0;
+	background-color: #E6F2FF;
+	text-align: center;
+	margin: auto;
+}
+.q5__textalign { text-align: center; }
+.q5__box {
+	display: table;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto; 
+}
+.q5__vertical__table__inner {
+	display: table-cell;
+	background-color: #ECF1F2;
+	text-align: center;
+	vertical-align: middle;
+}
+.q5__vertical__table__txt {
+	display: inline-block;
+	padding: 10px;
+	background-color: #fff;
+}
+.q5__box__flex {
+	display: flex;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #ECF1F2;
+	align-items: center;
+	justify-content: center;
+}
+.q5__vertical__flex__txt {
+	display: inline-block;
+	padding: 10px;
+	background-color: #fff;
+}
+.q5__position {
+	width: 640px;
+	margin: 0 auto;
+	padding: 20px 10px;
+	font-size: 0;
+	background-color: #ECF1F2; 
+	margin-top: 20px;
+}
+.q5__position__box {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	margin: 0 10px;
+	background-color: #fff;
+	font-size: 16px;
+}
+.q5__position__box__inner--stable {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	margin: auto; 
+	text-align: center;
+	background-color: #E6F2FF;
+}
+.q5__position__box__inner--flexible {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	transform: translate(-50%, -50%); 
+	background-color: #E6F2FF;
+}
 
 /* 回答はここに書いてね */

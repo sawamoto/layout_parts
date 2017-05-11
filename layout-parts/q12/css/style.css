@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q12 {
+	position: relative;
+	width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+	border: 5px solid #222;
+	border-radius: 30px;  
+}
+.q12:before,
+.q12:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border : 20px solid transparent;
+	content: "";
+}
+.q12:before {
+	width: 0;
+	height: 0;
+	border-top: 20px solid #222;
+	border-left: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid transparent;  
+	bottom: -45px;
+	left: 30px;
 
+}
+.q12:after {
+	width: 0;
+	height: 0;
+	border-top: 20px solid #fff;
+	border-left: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid transparent;  
+	bottom: -38px;
+	left: 30px;
+
+}
 /* 回答はここに書いてね */
