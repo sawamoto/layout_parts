@@ -9,6 +9,7 @@
 	border: 5px solid #222;
 	border-radius: 30px;  
 }
+
 .q12:before,
 .q12:after {
 	position: absolute;
@@ -19,6 +20,7 @@
 	border : 20px solid transparent;
 	content: "";
 }
+
 .q12:before {
 	width: 0;
 	height: 0;
@@ -30,6 +32,7 @@
 	left: 30px;
 
 }
+
 .q12:after {
 	width: 0;
 	height: 0;

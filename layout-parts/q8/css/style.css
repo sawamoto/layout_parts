@@ -8,30 +8,38 @@
 	background-color: #ecf1f2;
 	box-sizing: border-box;
 }
+
 .q8__cell {
 	display: table-cell;
 	padding: 20px;
 	text-align: center;
 }
-.q8__cell.is-1 {
+
+.q8__cell.is-orange {
 	width: 100px;
 	background-color: #fdc8b8;
 }
-.q8__cell.is-2 {
+
+.q8__cell.is-purple {
 	background-color: #e0abd9;
 }
-.q8__cell.is-3 {
+
+.q8__cell.is-skybule {
 	width: 100px;
-	background-color: #B6D8ED;
+	background-color: #b6d8ed;
 }
-.q8__cell.is-4 {
+
+.q8__cell.is-yellow {
 	background-color: #e5d32e;
 }
-.q8__cell.is-5 {
+
+.q8__cell.is-whiteyellow {
 	background-color: #e4e67c;
 }
-.q8__cell.is-6 {
+
+.q8__cell.is-green {
 	width: 500px;
 	background-color: #8fdcad;
 }
+
 /* 回答はここに書いてね */

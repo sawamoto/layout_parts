@@ -6,49 +6,55 @@
 	font-size: 0;
 	text-align: center;
 }
+
 .button {
 	display: inline-block;
 	text-align: center;
 	cursor: pointer;
 }
+
 .button--small {
 	padding: 0 15px;
 	border-radius: 3px;
 	font-size: 16px;
 	line-height: 26px;
-	margin-left: 10px;
 }
+
 .button--middle {
 	padding: 0 20px;
 	border-radius: 5px;
 	font-size: 20px;
 	line-height: 32px;
-	margin-left: 10px;
 }
+
 .button--large {
 	padding: 0 25px;
 	border-radius: 7px;
 	font-size: 24px;
 	line-height: 38px;
-	margin-left: 10px;
 }
+
 .button--default {
 	background-color: #fff;
 	color: #222;
 }
+
 .button--common {
 	background-color:#00bcd4;
 	color: #fff; 
 }
+
 .button--error {
 	background-color: #ff4081;
-	color: #FFF;
+	color: #fff;
 }
+
 .button--disabled {
 	background-color: #e5e5e5;
 	color: #fff;
 	cursor: default;
 }
+
 .button.is-snadow {
 	box-shadow: 0 1px 6px rgba(0,0,0,.12),
 	            0 1px 4px rgba(0,0,0,.12);

@@ -2,31 +2,36 @@
 
 /* 回答はここに書いてね */
 .contents {
-	max-width: 900px
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 20px;
-	background-color: #ECF1F2;
+	background-color: #ecf1f2;
 }
+
 .contents__txt {
 	font-size: 18px;
-	line-height:  22px;
+	line-height: 22px;
     word-break: break-all;
 }
+
 .contents__thumb {
 	margin-bottom: 10px;
 }
+
 .contents__thumb1 {
 	float: left;
 	margin-right: 20px;
 }
+
 .contents__thumb2 {
 	float: right;
 	margin-left: 20px;
 }
+
 .clearfix::before,
 .clearfix::after {
-content: "";
-display: table !important;
-clear: both; 
+	content: "";
+	display: table !important;
+	clear: both; 
 }
 /* 回答はここに書いてね */

@@ -2,33 +2,41 @@
 
 /* 回答はここに書いてね */
 .contents {
-width: 100%;
-table-layout: fixed;
+	width: 100%;
+	table-layout: fixed;
 }
+
 .contents th {
-padding: 10px;
-background-color: #2244aa;
-color: white;
-font-size: 18px;
-line-height: 26px;
+	padding: 10px;
+	background-color: #24a;
+	color: white;
+	font-size: 18px;
+	line-height: 26px;
 }
+
 .contents td {
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-vertical-align: middle;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	vertical-align: middle;
 }
 
-
-.contents > tbody > tr:nth-child(even) {
-background-color: #ecf1f2;
-}
-.contents > tbody > tr:last-child {
-border-top: dashed #000 2px;
+.contents >
+tbody >
+tr:nth-child(even) {
+	background-color: #ecf1f2;
 }
 
-.contents,th,td{
-border: solid #dedede 1px;
+.contents > 
+tbody > 
+tr:last-child {
+	border-top: dashed #000 2px;
+}
+
+.contents,
+th,
+td {
+	border: solid #dedede 1px;
 }
 
 /* 回答はここに書いてね */

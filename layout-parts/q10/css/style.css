@@ -8,10 +8,12 @@
     padding: 20px;
     background-color: #ECF1F2;
 }
+
 .q10__title {
     position: relative;
     margin-bottom: 20px;
 }
+
 .q10__title:before {
     position: absolute;
     top: 50%;
@@ -21,6 +23,7 @@
     background-color: #ccc;
     content: "";
 }
+
 .q10__title__txt {
     position: relative;
     display: inline-block;
@@ -29,23 +32,37 @@
     font-size: 24px;
     font-weight: bold;
 }
+
 .q10__main {
     float: left;
     width: 300px;
 }
-.q10__main__items { margin-bottom: 20px; }
-.q10__main__items > li:not(:first-child) { margin-top: 20px; }
+
+.q10__main__items { 
+    margin-bottom: 20px; 
+}
+
+.q10__main__items > 
+li:not( :first-child) { 
+    margin-top: 20px; 
+}
+
 .q10__main__items__title {
     float: left;
     width: 100px;
     line-height: 25px;
     text-align: right;
 }
-.q10__main__items__title .is-required { color: #F00; }
+
+.q10__main__items__title .is-required { 
+    color: #f00; 
+}
+
 .q10__main__items__content {
     float: right;
     width: 180px;
 }
+
 .q10__input--init {
     padding: 0;
     background: none;
@@ -57,6 +74,7 @@
     -moz-appearance: none;
     appearance: none;
 }
+
 .q10__input {
     width: 100%;
     padding: 5px;
@@ -66,13 +84,21 @@
     line-height: 12px;
     box-sizing: border-box;
 }
-.q10__radio { cursor: pointer; }
-.q10__radio__btn { display: none; }
+
+.q10__radio { 
+    cursor: pointer;
+}
+
+.q10__radio__btn { 
+    display: none; 
+}
+
 .q10__radio__txt {
     position: relative;
     display: inline-block;
     padding: 3px 3px 3px 20px;
 }
+
 .q10__radio__txt:before {
     position: absolute;
     top: 50%;
@@ -85,6 +111,7 @@
     border-radius: 50%;
     content: '';
 }
+
 .q10__radio__btn:checked + .q10__radio__txt:after {
     position: absolute;
     top: 50%;
@@ -96,7 +123,11 @@
     border-radius: 50%;
     content: '';
 }
-.q10__main__bottom { text-align: right; }
+
+.q10__main__bottom { 
+    text-align: right; 
+}
+
 .q10__main__bottom__btn {
     padding: 0 10px;
     border-radius: 5px;
@@ -106,10 +137,12 @@
     font-size: 16px;
     line-height: 26px;
 }
+
 .q10__side {
     float: right;
     width: 380px;
 }
+
 .q10__side__txt {
     width: 100%;
     height: 203px;
